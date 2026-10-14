@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="description" content="Discover men's, women's and couple watches at AR LUXORA, a modern black-and-white luxury watch boutique."><title>Luxury Watches | AR LUXORA</title><link rel="stylesheet" href="styles.css"></head><body>
+<div class="topbar">COMPLIMENTARY DELIVERY ON SELECTED ORDERS • WHATSAPP 03124393426</div>
+<header class="navbar"><div class="container nav-inner">
+<a class="logo" href="index.html">AR <span>LUXORA</span></a>
+<nav class="nav-links" id="navLinks">
+<a class="active" href="index.html">Home</a>
+<a class="" href="about.html">About</a>
+<a class="" href="services.html">Services</a>
+<a class="" href="blog.html">Journal</a>
+<a class="" href="contact.html">Contact</a>
+<a href="admin.html">Admin</a>
+</nav>
+<div class="nav-actions"><button class="icon-btn menu-btn" id="menuBtn">☰</button><button class="icon-btn" id="cartBtn">👜<span class="cart-count">0</span></button></div>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+<div><div class="eyebrow">The AR LUXORA Collection</div><h1>Time, shaped by <em>you.</em></h1><p>Discover considered timepieces for him, for her, and for the moments you share. A modern watch edit defined by clean lines, confident detail and quiet luxury.</p><div class="btns"><a class="btn btn-primary" href="#collection">Shop the collection</a><a class="btn btn-soft" href="contact.html">Talk to us</a></div><nav class="collection-links" aria-label="Shop watch collections"><a href="#men-watches">Men</a><a href="#women-watches">Women</a><a href="#couple-watches">Couples</a><a href="#brand-watches">Brands</a></nav></div>
+<div class="hero-card"><img src="assets/watch-3.jpeg" alt="AR LUXORA emerald luxury couple watches"><div class="floating-note"><b>Signature Edit</b><br>Emerald Royale Duo</div></div>
+</div></section>
+<section class="section"><div class="container"><div class="features">
+<div class="feature">✦<b>Luxury Presentation</b><span>Curated visuals and premium styling from first click to checkout.</span></div>
+<div class="feature">◈<b>Three Watch Edits</b><span>Explore men's, women's and coordinated couple watches.</span></div>
+<div class="feature">◌<b>WhatsApp Ordering</b><span>Message us directly for availability and order assistance.</span></div>
+<div class="feature">✓<b>Personal Support</b><span>Reach AR LUXORA at 03124393426 for product guidance.</span></div>
+</div></div></section>
+<section class="section collection-section" id="collection"><div class="container"><div class="section-head"><div><div class="eyebrow">The boutique</div><h2>Find your timepiece.</h2></div><p>Three distinct edits, selected for the way you wear time. Prices are shown in Pakistani Rupees.</p></div>
+<div class="toolbar"><input class="search" id="productSearch" placeholder="Search watches..." aria-label="Search watches"><select class="filter" id="productFilter" aria-label="Filter watch collection"><option value="all">All collections</option><option>Men's Watches</option><option>Women's Watches</option><option>Couple Watches</option><option>Brand Watches</option></select></div>
+<section class="watch-category" id="men-watches" data-category="Men's Watches"><div class="category-heading"><div><div class="eyebrow">01 / For him</div><h2>Men's Watches</h2></div><span>Confident by design</span></div><div class="products-grid" id="menProductGrid"></div></section>
+<section class="watch-category" id="women-watches" data-category="Women's Watches"><div class="category-heading"><div><div class="eyebrow">02 / For her</div><h2>Women's Watches</h2></div><span>Distinctly considered</span></div><div class="products-grid" id="womenProductGrid"></div></section>
+<section class="watch-category" id="couple-watches" data-category="Couple Watches"><div class="category-heading"><div><div class="eyebrow">03 / Together</div><h2>Couple Watches</h2></div><span>Made to match your moment</span></div><div class="products-grid" id="coupleProductGrid"></div></section>
+<section class="watch-category" id="brand-watches" data-category="Brand Watches"><div class="category-heading"><div><div class="eyebrow">04 / Brand edit</div><h2>Brand Watches</h2></div><span>Distinctive brand pieces</span></div><div class="products-grid" id="brandProductGrid"></div></section>
+</div></section>
+<section class="section"><div class="container quote"><p>“Luxury is not only what you wear. It is the feeling attached to every moment you choose to remember.”</p><small>— AR LUXORA EDIT</small></div></section>
+<section class="section"><div class="container split"><img class="story-img" src="assets/watch-5.jpeg" alt="Golden pearl AR LUXORA couple watch set"><div class="panel"><span class="badge">Gift with intention</span><h2>Two watches. One shared moment.</h2><p>Our paired watch edits are designed for birthdays, anniversaries, engagements, Eid gifting and those simple occasions when you want to say “we match.”</p><ul class="check-list"><li>Coordinated designs for couples</li><li>Elegant presentation-ready styling</li><li>Easy WhatsApp ordering</li><li>Personal assistance before you buy</li></ul><a class="btn btn-primary" href="contact.html">Request order assistance</a></div></div></section>
+</main>
+
+<div class="cart-drawer" id="cartDrawer"><div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-panel">
+<div class="cart-head"><div><span class="eyebrow">AR LUXORA</span><h3>Your Bag</h3></div><button class="close" id="cartClose">×</button></div>
+<div class="cart-items" id="cartItems"></div><div class="cart-total"><div class="total-line"><span>Total</span><span id="cartTotal">Rs. 0</span></div><button class="btn btn-primary" style="width:100%" onclick="checkoutWhatsApp()">Order via WhatsApp</button></div>
+</aside></div>
+<div class="modal" id="productModal"><div class="modal-box"><div style="display:flex;justify-content:flex-end"><button class="close" onclick="document.querySelector('#productModal').classList.remove('open')">×</button></div><div class="modal-content"></div></div></div>
+<div class="toast"></div>
+
+<footer class="footer"><div class="container footer-grid">
+<div><h3>AR LUXORA</h3><p>A refined destination for statement watches, coordinated couple sets and everyday luxury.</p></div>
+<div><h3>Explore</h3><div class="footer-links"><a href="index.html">Collection</a><a href="about.html">Our Story</a><a href="services.html">Services</a><a href="blog.html">Journal</a></div></div>
+<div><h3>Client Care</h3><div class="footer-links"><a href="contact.html">Contact</a><a href="contact.html">Order Help</a><a href="contact.html">Delivery</a></div></div>
+<div><h3>Connect</h3><p>WhatsApp: 03124393426</p><p>Pakistan • Online Boutique</p></div>
+</div><div class="container copyright">© 2026 AR LUXORA. Crafted for modern luxury.</div></footer>
+<script src="script.js"></script></body></html>

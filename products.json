@@ -1,0 +1,74 @@
+[
+  {
+    "id": "LX-001",
+    "name": "Luxe Noir Couple Set",
+    "category": "Couple Watches",
+    "price": 8490,
+    "oldPrice": 9990,
+    "image": "assets/watch-1.jpeg",
+    "tag": "Bestseller",
+    "color": "Obsidian black & brushed gold",
+    "colorTone": "charcoal",
+    "desc": "A polished silver-and-gold couple set with deep charcoal dials and a refined luxury profile."
+  },
+  {
+    "id": "LX-002",
+    "name": "Silver Prestige Duo",
+    "category": "Couple Watches",
+    "price": 7990,
+    "oldPrice": 9490,
+    "image": "assets/watch-2.jpeg",
+    "tag": "New Arrival",
+    "color": "Arctic silver",
+    "colorTone": "silver",
+    "desc": "A clean all-silver duo designed for understated elegance, gifting and coordinated occasions."
+  },
+  {
+    "id": "LX-003",
+    "name": "Emerald Royale Duo",
+    "category": "Couple Watches",
+    "price": 8790,
+    "oldPrice": 10490,
+    "image": "assets/watch-3.jpeg",
+    "tag": "Signature",
+    "color": "Malachite green & gold",
+    "colorTone": "emerald",
+    "desc": "Emerald-toned dials, gold accents and a statement bracelet make this set instantly distinctive."
+  },
+  {
+    "id": "LX-004",
+    "name": "Pearl Silver Duo",
+    "category": "Couple Watches",
+    "price": 7690,
+    "oldPrice": 8990,
+    "image": "assets/watch-4.jpeg",
+    "tag": "Classic",
+    "color": "Ivory pearl & platinum",
+    "colorTone": "pearl",
+    "desc": "A bright pearl dial with silver bracelet detailing for a timeless, versatile everyday look."
+  },
+  {
+    "id": "LX-005",
+    "name": "Golden Pearl Couple Set",
+    "category": "Couple Watches",
+    "price": 8990,
+    "oldPrice": 10990,
+    "image": "assets/watch-5.jpeg",
+    "tag": "Premium",
+    "color": "Rose champagne",
+    "colorTone": "rose",
+    "desc": "Warm gold accents and luminous pearl faces create a graceful premium gifting set."
+  },
+  {
+    "id": "LX-006",
+    "name": "Emerald Signature Set",
+    "category": "Couple Watches",
+    "price": 9290,
+    "oldPrice": 11490,
+    "image": "assets/watch-6.jpeg",
+    "tag": "Limited Look",
+    "color": "Pine green & antique gold",
+    "colorTone": "forest",
+    "desc": "A richer emerald face with a two-tone bracelet for a bold, coordinated luxury finish."
+  }
+]
